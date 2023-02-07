@@ -11,5 +11,5 @@
  *  limitations under the License
  */
 
-rootProject.name = "kotmolpdbparser"
-include ("kotmolpdbparser")
+rootProject.name = "pdbparser"
+include ("pdbparser")

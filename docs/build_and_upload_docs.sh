@@ -40,7 +40,7 @@
 
 #  4) Press "Shift-F5" to reload the browser and see your changes (Chrome).
 
-REPO="https://github.com/kotmol/KotmolPdbParser"
+REPO="https://github.com/jimandreas/PdbParser"
 DIR=build/temp-$$
 
 if [ ! -f build_and_upload_docs.sh ]; then

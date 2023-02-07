@@ -1,4 +1,4 @@
-KotmolPdbParser
+PdbParser
 ==============
 
 This repo is for development of a 

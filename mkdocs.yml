@@ -1,13 +1,13 @@
 
 # Project information
-site_name: 'KotmolPdbParser'
+site_name: 'PdbParser'
 site_description: 'A Protein Database (PDB) Parser written in Kotlin:'
 site_author: 'Jim Andreas'
-site_url: 'https://kotmol.github.io/KotmolPdbParser'
+site_url: 'https://jimandreas.github.io/PdbParser'
 
 # Repository
-repo_name: 'kotmol/KotmolPdbParser'
-repo_url: 'https://github.com/kotmol/KotmolPdbParser'
+repo_name: 'jimandreas/PdbParser'
+repo_url: 'https://github.com/jimandreas/PdbParser'
 edit_uri: ""
 
 # Copyright
