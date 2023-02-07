@@ -1,0 +1,64 @@
+
+# Project information
+site_name: 'KotmolPdbParser'
+site_description: 'A Protein Database (PDB) Parser written in Kotlin:'
+site_author: 'Jim Andreas'
+site_url: 'https://kotmol.github.io/KotmolPdbParser'
+
+# Repository
+repo_name: 'kotmol/KotmolPdbParser'
+repo_url: 'https://github.com/kotmol/KotmolPdbParser'
+edit_uri: ""
+
+# Copyright
+copyright: 'Copyright &copy; 2020 Jim Andreas'
+
+# Configuration
+theme:
+  name: 'material'
+
+  # 404 page
+  static_templates:
+    - 404.html
+
+  # Don't include MkDocs' JavaScript
+  include_search_page: false
+  search_index_only: true
+
+  # Default values, taken from mkdocs_theme.yml
+  language: en
+  features:
+    - tabs
+    #- instant
+  palette:
+    scheme: default
+    primary: indigo
+    accent: indigo
+  font:
+    text: Roboto
+    code: Roboto Mono
+
+# Extensions
+markdown_extensions:
+  - admonition
+  - codehilite:
+      guess_lang: false
+  - toc:
+      permalink: true
+  - markdown.extensions.def_list
+  - markdown.extensions.footnotes
+  - markdown.extensions.meta
+
+# Page tree
+nav:
+  - Home: index.md
+  - Testing: Testing.md
+  - Uploading: Uploading.md
+  - PDB Notes: PDBnotes.md
+  - Special Structures: Special-Structures.md
+
+
+# Notes
+#   avoid tabs in vim:
+#   :set tabstop=4 shiftwidth=4 expandtab
+#
