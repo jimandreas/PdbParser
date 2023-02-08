@@ -1,5 +1,5 @@
 /*
- *  Copyright 2020 James Andreas
+ *  Copyright 2020-2023 James Andreas
  *  Licensed under the Apache License, Version 2.0 (the "License");
  *  you may not use this file except in compliance with the License.
  *  You may obtain a copy of the License at
@@ -60,9 +60,9 @@ internal class PdbParserTest {
     @Test
     @DisplayName( "parser test with parameters and retained messages")
     fun parserTest03() {
-        val molecule: Molecule = Molecule()
+        val molecule = Molecule()
         val retainedMessages = mutableListOf<String>()
-        assertEquals(0, retainedMessages.size)
+
         ParserPdbFile
                 .Builder(molecule)
                 .setMessageStrings(retainedMessages)

@@ -1,5 +1,5 @@
 /*
- *  Copyright 2020 James Andreas
+ *  Copyright 2020-2023 James Andreas
  *  Licensed under the Apache License, Version 2.0 (the "License");
  *  you may not use this file except in compliance with the License.
  *  You may obtain a copy of the License at
@@ -28,7 +28,7 @@ import java.io.ByteArrayInputStream
  */
 internal class AtomCoordTest05 {
 
-    lateinit var str00 : ByteArrayInputStream
+    private lateinit var str00 : ByteArrayInputStream
     val mol = Molecule()
     val parse = ParserPdbFile(mol)
 
@@ -54,8 +54,6 @@ HETATM 1403  O   HOH A 358      30.428 -30.357  32.559  1.00 33.45           O
     @Test
     @DisplayName( "test centering with a short PDB")
     fun testWithZeroCoordinateAtom() {
-
-        var messages : MutableList<String> = mutableListOf()
 
         ParserPdbFile
                 .Builder(mol)

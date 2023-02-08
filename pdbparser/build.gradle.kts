@@ -15,13 +15,15 @@
 //import org.gradle.api.tasks.testing.logging.TestLogEvent
 
 // val currentVersion = "1.0.4-SNAPSHOT"
-val currentVersion = "1.0.5"
+val currentVersion = "1.0.6"
 plugins {
-    id("org.jetbrains.kotlin.jvm") version "1.5.10"
+//    id("org.jetbrains.kotlin.jvm") version "1.5.10"
+    id("org.jetbrains.kotlin.jvm") version "1.8.10"
     id("java-library")
     `maven-publish`
     signing
-    id("org.jetbrains.dokka") version "1.4.32"
+//    id("org.jetbrains.dokka") version "1.4.32"
+    id("org.jetbrains.dokka") version "1.7.10"
 }
 
 repositories {
@@ -33,7 +35,6 @@ java {
     targetCompatibility = JavaVersion.VERSION_1_8
     withSourcesJar()
 }
-
 
 val dokkaHtml by tasks.getting(org.jetbrains.dokka.gradle.DokkaTask::class)
 

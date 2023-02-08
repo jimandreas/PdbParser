@@ -1,5 +1,5 @@
 /*
- *  Copyright 2020 James Andreas
+ *  Copyright 2020-2023 James Andreas
  *  Licensed under the Apache License, Version 2.0 (the "License");
  *  you may not use this file except in compliance with the License.
  *  You may obtain a copy of the License at
@@ -13,7 +13,12 @@
 
 @file:Suppress(
 
-        "MemberVisibilityCanBePrivate"
+        "MemberVisibilityCanBePrivate",
+        "MemberVisibilityCanBePrivate", "UnnecessaryVariable", "ReplaceJavaStaticMethodWithKotlinAnalog",
+        "unused", "UNUSED_VARIABLE", "ReplaceManualRangeWithIndicesCalls", "UNUSED_VALUE", "ReplaceWithOperatorAssignment",
+        "UNUSED_PARAMETER", "UNUSED_CHANGED_VALUE", "CanBeVal", "SimplifyBooleanWithConstants",
+        "ConvertTwoComparisonsToRangeCheck", "ReplaceSizeCheckWithIsNotEmpty", "LiftReturnOrAssignment",
+        "VARIABLE_WITH_REDUNDANT_INITIALIZER"
 )
 
 /*@file:Suppress(

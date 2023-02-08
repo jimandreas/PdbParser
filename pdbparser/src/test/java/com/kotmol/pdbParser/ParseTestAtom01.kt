@@ -1,5 +1,5 @@
 /*
- *  Copyright 2020 James Andreas
+ *  Copyright 2020-2023 James Andreas
  *  Licensed under the Apache License, Version 2.0 (the "License");
  *  you may not use this file except in compliance with the License.
  *  You may obtain a copy of the License at
@@ -23,7 +23,7 @@ import java.io.ByteArrayInputStream
 internal class ParseTestAtom01 {
 
     lateinit var str : ByteArrayInputStream
-    lateinit var anAtom : String
+    private lateinit var anAtom : String
     @org.junit.jupiter.api.BeforeEach
     fun setUp() { // from 1bna.pdb
         anAtom = """

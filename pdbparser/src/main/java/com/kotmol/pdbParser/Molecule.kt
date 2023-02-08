@@ -81,4 +81,7 @@ class Molecule {
 enum class BondType {
     BONDTABLE, CONECT
 }
-class Bond(val atomNumber1: Int, val atomNumber2: Int, var type: BondType = BondType.BONDTABLE)
+class Bond(
+    val atomNumber1: Int,
+    val atomNumber2: Int,
+    var type: BondType = BondType.BONDTABLE)

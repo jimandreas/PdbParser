@@ -1,5 +1,5 @@
 /*
- *  Copyright 2020 James Andreas
+ *  Copyright 2020-2023 James Andreas
  *  Licensed under the Apache License, Version 2.0 (the "License");
  *  you may not use this file except in compliance with the License.
  *  You may obtain a copy of the License at
@@ -10,6 +10,16 @@
  *  See the License for the specific language governing permissions and
  *  limitations under the License
  */
+
+@file:Suppress(
+    "unused",
+    "unused_variable",
+    "unused_parameter",
+    "unused_property",
+    "deprecation",
+    "ConstantConditionIf",
+    "LocalVariableName",
+    "PropertyName")
 
 package com.kotmol.pdbParser
 
@@ -28,7 +38,7 @@ internal class RibbonCAonlyTest {
      * 1IGY - residue 82 is distingushed by the insertion codes
      */
     lateinit var str : ByteArrayInputStream
-    lateinit var anAtom : String
+    private lateinit var anAtom : String
     @org.junit.jupiter.api.BeforeEach
     fun setUp() { // from 3ixz CA only
         val numbering = """
@@ -60,7 +70,7 @@ ATOM      9  CA  MET A  44      35.713  53.288 -17.402  1.00  0.00           C
     fun testCAonlyPDBfile() {
 
         val mol = Molecule()
-        var messages : MutableList<String> = mutableListOf()
+        val messages : MutableList<String> = mutableListOf()
 
         ParserPdbFile
                 .Builder(mol)
