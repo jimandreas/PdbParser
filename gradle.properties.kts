@@ -14,10 +14,10 @@
 val GROUP= "com.kotmol.pdbParser"
 
 val POM_DESCRIPTION= "Protein DataBase (PDB) parser in Kotlin."
-val POM_URL= "https://github.com/kotmol/KotmolPdbParser"
-val POM_SCM_URL= "https://github.com/kotmol/KotmolPdbParser"
-val POM_SCM_CONNECTION= "scm:git@github.com:kotmol/KotmolPdbParser.git"
-val POM_SCM_DEV_CONNECTION= "scm:git@github.com:kotmol/KotmolPdbParser.git"
+val POM_URL= "https://github.com/jimandreas/PdbParser"
+val POM_SCM_URL= "https://github.com/jimandreas/PdbParser"
+val POM_SCM_CONNECTION= "scm:git@github.com:jimandreas/PdbParser.git"
+val POM_SCM_DEV_CONNECTION= "scm:git@github.com:jimandreas/PdbParser.git"
 
 val POM_LICENCE_NAME= "The Apache Software License, Version 2.0"
 val POM_LICENCE_URL= "http://www.apache.org/licenses/LICENSE-2.0.txt"

@@ -1,5 +1,5 @@
 /*
- *  Copyright 2021 James Andreas
+ *  Copyright 2021-2023 James Andreas
  *  Licensed under the Apache License, Version 2.0 (the "License");
  *  you may not use this file except in compliance with the License.
  *  You may obtain a copy of the License at
@@ -60,7 +60,7 @@ dependencies {
 
     // implementation("com.google.guava:guava:30.0-jre")
 
-    testImplementation(platform("org.junit:junit-bom:5.7.2"))
+    testImplementation(platform("org.junit:junit-bom:5.9.2"))
     testImplementation("org.junit.jupiter:junit-jupiter")
 
 //    testImplementation("org.jetbrains.kotlin:kotlin-test")
